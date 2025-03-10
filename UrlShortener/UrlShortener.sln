@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35821.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener.API", "UrlShortener.API.csproj", "{B3F44C36-4D8D-4E16-AF13-DAD57F67F39C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener.Application", "..\UrlShortener.Application\UrlShortener.Application.csproj", "{974CF1E3-A306-4DC2-8B66-4669A3FE9836}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener.DataAccess", "..\UrlShortener.DataAccess\UrlShortener.DataAccess.csproj", "{A4F46902-C428-46BE-BE92-8E3B1B004D3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener.Domain", "..\UrlShortener.Domain\UrlShortener.Domain.csproj", "{0A112365-5B02-4953-A68D-AB8D15A8C76B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener.Shared", "..\UrlShortener.Shared\UrlShortener.Shared.csproj", "{D9C4FF7A-8664-44A7-91E6-A9627C755587}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3F44C36-4D8D-4E16-AF13-DAD57F67F39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F44C36-4D8D-4E16-AF13-DAD57F67F39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F44C36-4D8D-4E16-AF13-DAD57F67F39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F44C36-4D8D-4E16-AF13-DAD57F67F39C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{974CF1E3-A306-4DC2-8B66-4669A3FE9836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974CF1E3-A306-4DC2-8B66-4669A3FE9836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974CF1E3-A306-4DC2-8B66-4669A3FE9836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974CF1E3-A306-4DC2-8B66-4669A3FE9836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F46902-C428-46BE-BE92-8E3B1B004D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F46902-C428-46BE-BE92-8E3B1B004D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F46902-C428-46BE-BE92-8E3B1B004D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F46902-C428-46BE-BE92-8E3B1B004D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A112365-5B02-4953-A68D-AB8D15A8C76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A112365-5B02-4953-A68D-AB8D15A8C76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A112365-5B02-4953-A68D-AB8D15A8C76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A112365-5B02-4953-A68D-AB8D15A8C76B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C4FF7A-8664-44A7-91E6-A9627C755587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C4FF7A-8664-44A7-91E6-A9627C755587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C4FF7A-8664-44A7-91E6-A9627C755587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C4FF7A-8664-44A7-91E6-A9627C755587}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51CDAF18-C214-4945-B875-5F096B79B0BC}
+	EndGlobalSection
+EndGlobal
